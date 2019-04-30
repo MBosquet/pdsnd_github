@@ -1,0 +1,7 @@
+#raw data files to the project (no need to track)
+chicago.csv
+new_york_city.csv
+washington.csv
+
+#macOS internal file (no need to track)
+.DS_Store
