@@ -25,19 +25,19 @@ def get_filters():
         if city in city_lst:
 
 # get user input for month (all, january, february, ... , june)
-            ask_mod = input('Would you like to filter the data by month, day, both, or not at all?')
-            if ask_mod == 'month':
+            ask_month_day = input('Would you like to filter the data by month, day, both, or not at all?')
+            if ask_month_day == 'month':
                 raw_month = input('Please select a month: January to June or choose all:')
                 month = raw_month.lower()
                 day = 'all'
 
-            elif ask_mod == 'day':
+            elif ask_month_day == 'day':
     # get user input for day of week (all, monday, tuesday, ... sunday)
                 raw_day = input('Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?')
                 day = raw_day.lower()
                 month = 'all'
 
-            elif ask_mod == 'both':
+            elif ask_mont_day == 'both':
                 raw_month = input('Please select a month: January to June or choose all:')
                 month = raw_month.lower()
                 raw_day = input('Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?')
