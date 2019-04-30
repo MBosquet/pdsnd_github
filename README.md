@@ -21,4 +21,6 @@ After filtering the dataset, users will see the statistical result of the data, 
 * washington.csv
 
 ### Credits
--to be added -
+This project was created as part of a Udacity Nanodegree Course.
+
+Bikeshare.py is build from a template provided by [Udacity](https://eu.udacity.com/course/programming-for-data-science-nanodegree--nd104). The .csv files were made available as part of the course and were provided by [Motivate](https://www.motivateco.com).
