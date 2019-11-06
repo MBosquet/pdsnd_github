@@ -34,7 +34,7 @@ def get_filters():
                 day = input('Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?').lower()
                 month = 'all'
 
-            elif ask_mont_day == 'both':
+            elif ask_month_day == 'both':
                 month = input('Please select a month: January to June or choose all:').lower()
                 day = input('Which day - Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday?').lower()
 
